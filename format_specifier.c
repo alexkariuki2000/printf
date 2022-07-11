@@ -7,7 +7,6 @@
  */
 
 int print_char(va_list list)
-
 {
 	_write_char(va_arg(list, int));
 	return (1);
@@ -21,7 +20,6 @@ int print_char(va_list list)
  */
 
 int print_string(va_list list)
-
 {
 	int i;
 	char *str;
@@ -42,7 +40,6 @@ int print_string(va_list list)
  */
 
 int print_percent(__attribute__((unused))va_list list)
-
 {
 	_write_char('%');
 	return (1);

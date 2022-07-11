@@ -9,7 +9,6 @@
  */
 
 int _printf(const char *format, ...)
-
 {
 	int printed_chars;
 

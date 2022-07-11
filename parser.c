@@ -10,7 +10,6 @@
  */
 
 int parser(const char *format, conver_t f_list[], va_list arg_list)
-
 {
 	int i, j, r_val, printed_chars;
 

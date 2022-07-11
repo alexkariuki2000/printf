@@ -12,7 +12,6 @@
  */
 
 struct convert
-
 {
 	char *sym;
 	int (*f)(va_list);
