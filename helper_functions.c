@@ -22,7 +22,7 @@ char *rev_string(char *s)
 			return (NULL);
 		_memcpy(dest, s, len);
 		for (head = 0; head < len; head++, len--)
-		{	
+		{
 			tmp = dest[len - 1];
 			dest[len - 1] = dest[head];
 			dest[head] = tmp;
@@ -39,6 +39,7 @@ void write_base(char *str)
 
 {
 	int i;
+
 	for (i = 0; str[i] != '\0'; i++)
 		_write_char(str[i]);
 
